@@ -1,0 +1,11 @@
+{
+  "name": "skill-chain",
+  "version": "1.0.0",
+  "description": "Design and scaffold a skill chain: turn a repeated, multi-step workflow into a pipeline of small skills that hand their work to each other.",
+  "author": {
+    "name": "Kyle Chalmers",
+    "url": "https://kclabs.ai"
+  },
+  "homepage": "https://github.com/kyle-chalmers/skill-chain",
+  "keywords": ["skill", "workflow", "automation", "pipeline", "agent", "claude-code"]
+}
