@@ -1,0 +1,14 @@
+{
+  "name": "skill-chain",
+  "owner": {
+    "name": "Kyle Chalmers",
+    "url": "https://kclabs.ai"
+  },
+  "plugins": [
+    {
+      "name": "skill-chain",
+      "source": ".",
+      "description": "Turn a repeated, multi-step workflow into a chain of small AI skills that hand their work to each other."
+    }
+  ]
+}

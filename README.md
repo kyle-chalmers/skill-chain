@@ -29,15 +29,16 @@ cp -r skill-chain/skills/skill-chain ~/.claude/skills/
 
 Then start Claude Code and say: `design a skill chain for <your workflow>`.
 
-### Claude Code, as a plugin
+### Claude Code, as a plugin (one command)
 
-This repo is also a Claude Code plugin. Add it to a marketplace or install it directly so updates come with a `git pull`:
+This repo is also a Claude Code plugin marketplace. From inside Claude Code:
 
-```bash
-git clone https://github.com/kyle-chalmers/skill-chain.git ~/.claude/plugins/skill-chain
+```
+/plugin marketplace add kyle-chalmers/skill-chain
+/plugin install skill-chain@skill-chain
 ```
 
-The plugin manifest is at [`.claude-plugin/plugin.json`](.claude-plugin/plugin.json); the skill lives at [`skills/skill-chain/`](skills/skill-chain/).
+Updates then come with `/plugin update`. The manifests are at [`.claude-plugin/`](.claude-plugin/); the skill lives at [`skills/skill-chain/`](skills/skill-chain/).
 
 ### Other AI agents
 
