@@ -1,5 +1,11 @@
 # skill-chain
 
+> **Moved:** The maintained skill is now in [kyle-chalmers-skills](https://github.com/kyle-chalmers/kyle-chalmers-skills/tree/main/skills/skill-chain). This repository preserves its existing links and plugin manifest. For future updates, install from the new collection.
+
+```bash
+npx skills add kyle-chalmers/kyle-chalmers-skills --skill skill-chain
+```
+
 A free agent skill that turns a repeated, multi-step workflow into a **skill chain**: a set of small skills that run in order, where each step's output feeds the next. Instead of asking AI to do a whole job in one giant prompt, you break it into steps you can review, swap, and rerun.
 
 Built by [Kyle Chalmers](https://kclabs.ai) (KC AI Labs). I teach practical AI for people who run businesses on YouTube: **[@kylechalmersdataai](https://www.youtube.com/@kylechalmersdataai)**.
